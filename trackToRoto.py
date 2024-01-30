@@ -2,6 +2,8 @@ def trackToRoto():
     
     
     tracks = nuke.selectedNodes()
+    nuke.selectAll()
+    nuke.invertSelection()
     
     for tracker in tracks:
         if tracker.Class() == "Tracker4":
