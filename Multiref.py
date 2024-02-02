@@ -306,9 +306,9 @@ def createMultiStabilize():
 
 
 
-nuke.menu("Nuke").addCommand("SzilardTools/MultiTracker/Make node MultiTrack", "makeMultiRef()","Meta+G")
-nuke.menu("Nuke").addCommand("SzilardTools/MultiTracker/Update MultiTracker", "updateMultiRef()","Meta+F")
-nuke.menu("Nuke").addCommand("SzilardTools/MultiTracker/Create MultiMatchmove", "createMultiMatchmove()","Meta+A")
-nuke.menu("Nuke").addCommand("SzilardTools/MultiTracker/Create MultiStabilize", "createMultiStabilize()","Meta+S")
+nuke.menu("Nuke").addCommand("MultiTracker/Make node MultiTrack", "makeMultiRef()","Meta+G")
+nuke.menu("Nuke").addCommand("MultiTracker/Update MultiTracker", "updateMultiRef()","Meta+F")
+nuke.menu("Nuke").addCommand("MultiTracker/Create MultiMatchmove", "createMultiMatchmove()","Meta+A")
+nuke.menu("Nuke").addCommand("MultiTracker/Create MultiStabilize", "createMultiStabilize()","Meta+S")
 
 
